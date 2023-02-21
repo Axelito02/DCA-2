@@ -1,14 +1,12 @@
-function sumarN (n) {
-    switch (n) {
-        case 3:
-            n %3
-            console.log("by 3");
-            break;
-
-        case 5:
-            n % 5
-            console.log("by 5");
-            break;
-            de
+const Numb = (i) => {
+    if (i > 0) Numb(i-1)
+    
+    if (i % 3 === 0) {
+        console.log("divisible entre 3");
+    }  else if (i % 5 === 0) {
+        console.log("divisble entre 5");
     }
+
 }
+
+Numb(32);
