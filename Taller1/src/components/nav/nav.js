@@ -1,4 +1,4 @@
-class Character extends HTMLElement {
+class Nav extends HTMLElement {
     constructor(){
         super()
         this.attachShadow({mode: 'open'})
@@ -9,8 +9,8 @@ class Character extends HTMLElement {
     }
 
     render(){
-        this.shadowRoot.innerHTML = `<p>component character</p>`
+        this.shadowRoot.innerHTML = `<p>component nav</p>`
     }
 }
 
-customElements.define('comp-character', Character)
+customElements.define('comp-nav', Nav)
