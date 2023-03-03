@@ -9,7 +9,8 @@ class Btns extends HTMLElement {
     }
 
     render(){
-        this.shadowRoot.innerHTML = `<p>component btns</p>`
+        this.shadowRoot.innerHTML = `
+        <p>component btns</p>`
     }
 }
 
