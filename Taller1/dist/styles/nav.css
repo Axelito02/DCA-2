@@ -1,4 +1,40 @@
-*{
-    background-color: rgb(2, 27, 97);
+.body {
+    font-family: Arial;
+    margin-left: 80px;
+    margin-right: 80px;
+    margin-top: 0
+  }
+  
+  .header {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    align-items: center;
+    
+    background: #1abc9c;
     color: white;
-}   
+    gap: 40px 0;
+    row-gap: 20px;
+  }
+  
+  .header h3 {
+    font-size: 12px;
+    margin: 0;
+    padding: 10px;
+    border: 2px solid transparent;
+  }
+  
+  .header h3:hover {
+    background-color: #22c1a9;
+    color: white;
+  }
+  
+  .header p {
+    font-size: 30px;
+    margin: 0;
+    padding: 10px;
+  }
+
+  .sol {
+    margin: 0 30px;
+  }
+  

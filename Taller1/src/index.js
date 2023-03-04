@@ -17,6 +17,7 @@ class App extends HTMLElement {
             <comp-character></comp-character>
             <comp-btns></comp-btns>
             <comp-form></comp-form>
+            <comp-bottom></comp-bottom>
         `
     }
 }

@@ -1,0 +1,21 @@
+.body {
+    font-family: Arial;
+    margin-left: 80px;
+    margin-right: 80px;
+    margin-bottom: 0;
+  }
+  
+  .bottom {
+    display: grid;
+    grid-template-columns: 3fr 1fr 1fr;
+    background: #1abc9c;
+    color: white;
+    padding-left: 25px;
+    gap: 40px 0;
+    row-gap: 20px;
+  }
+
+  .bottom p{
+    font-size: 12px;
+  }
+  /*justify-self: end; para las imágenes de twitter y mail
