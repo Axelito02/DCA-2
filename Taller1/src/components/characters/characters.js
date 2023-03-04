@@ -10,7 +10,7 @@ class Character extends HTMLElement {
 
     render(){
         this.shadowRoot.innerHTML = `
-        <link rel="stylesheet" href="./components/characters/characters.css">
+        <link rel="stylesheet" href="./styles/character.css">
         <p>component character</p>`
     }
 }

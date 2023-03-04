@@ -12,10 +12,11 @@ class App extends HTMLElement {
 
     render(){
         this.shadowRoot.innerHTML = `
+        
+            <comp-nav></comp-nav>
             <comp-character></comp-character>
             <comp-btns></comp-btns>
             <comp-form></comp-form>
-            <comp-nav></comp-nav>
         `
     }
 }

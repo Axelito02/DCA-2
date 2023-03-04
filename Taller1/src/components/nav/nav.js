@@ -9,7 +9,9 @@ class Nav extends HTMLElement {
     }
 
     render(){
-        this.shadowRoot.innerHTML = `<p>component nav</p>`
+        this.shadowRoot.innerHTML = `
+        <link rel="stylesheet" href="./styles/nav.css">
+        <p>component nav</p>`
     }
 }
 
