@@ -1,14 +1,10 @@
-.body{
-    margin: 80px;
-}
-
-.cuadro-personjes{
+.characters{
     display: grid;
-    grid-template-columns: 20px 20px 20px 20px;
-    grid-template-rows: 20px 20px 20px 20px;
-    
+    grid-template-columns: auto auto auto auto;
+    grid-template-rows: auto auto auto;
 }
 
-.cuadro-personajes img:hover {
+.characters img:hover{
     filter: brightness(50%);
-  }
+    cursor: pointer;
+}

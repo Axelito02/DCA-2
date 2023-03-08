@@ -1,21 +1,21 @@
-.body {
-    font-family: Arial;
-    margin-left: 80px;
-    margin-right: 80px;
-    margin-bottom: 0;
-  }
-  
-  .bottom {
+.bottom {
     display: grid;
-    grid-template-columns: 3fr 1fr 1fr;
-    background: #1abc9c;
-    color: white;
-    padding-left: 25px;
+    grid-template-columns: auto auto auto;
     gap: 40px 0;
-    row-gap: 20px;
+    column-gap: 120px;
+    padding: 10px;
   }
 
-  .bottom p{
-    font-size: 12px;
-  }
-  /*justify-self: end; para las imágenes de twitter y mail
+.body {
+  background: #1abc9c;
+  color: white;
+  margin: 0;
+  font-family: Arial;
+  margin-top: 0;
+}
+
+.social{
+  display: grid;
+  grid-template-columns: auto auto;
+  gap: 40px;
+}
