@@ -1,0 +1,38 @@
+.content{
+    display: grid;
+    grid-template-rows: auto auto;
+    gap: 12px;
+}
+
+.switch-btn{
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+.btn-1{
+    background-color: #2196f3;
+    color: white;
+    border-color: #2196f3;
+    border-radius: 5px;
+    padding: 10px;
+    border: none;
+}
+
+.btn-2{
+    background-color: #4caf50;
+    color: white;
+    border-color: #4caf50;
+    border-radius: 5px;
+    padding: 10px;
+    border: none;
+}
+
+.btn-1:hover {
+    cursor: pointer;
+    background-color: #3ba1f4;
+}
+
+.btn-2:hover {
+    cursor: pointer;
+    background-color: #58b75b;
+}
