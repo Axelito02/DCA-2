@@ -47,7 +47,7 @@ class App extends HTMLElement {
                         <comp-btns></comp-btns>
                     </div>
                 </section>
-            <comp-bottom></comp-bottom>
+            <comp-bottom twiter= "./objection-characters/twiter.png" email= "./objection-characters/emailw.png"></comp-bottom>
         </section>
         `
     }

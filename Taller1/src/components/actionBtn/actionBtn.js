@@ -11,20 +11,25 @@ class Btns extends HTMLElement {
     render(){
         this.shadowRoot.innerHTML = `
         <link rel="stylesheet" href="./styles/actionBtn.css">
+        <link rel="stylesheet" href="../dist/styles/clases/class.css">
+
+
         <div class= "content">
-            <div class= "switch-btn">
+            <div class= "switch-btn1">
                 <div class="switch">
-                    <input type="checkbox">Music</input>
+                    <label for="toggle1" class="label-toggle"></label>
+                    <input type="checkbox" id="toggle1">Music</input>
                 </div>
                 <div class="switch">
-                    <input type="checkbox">Pose Animation</input>
+                    <label for="toggle2" class="label-toggle"></label>
+                    <input type="checkbox" id="toggle2">Pose Animation</input>
                 </div>
             </div>
             <div class= "switch-btn">
-                <div class="switch">
+                <div class="btn">
                     <button class="btn-1">Preview</buttonPreview>
                 </div>
-                <div class="switch">
+                <div class="btn">
                     <button class="btn-2">OBJECTION!</button>
                 </div>
             </div>

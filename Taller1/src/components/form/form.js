@@ -58,7 +58,7 @@ class Form extends HTMLElement {
             </div>
             
             <div class= "tex-area">
-                <input type ="text" class= "input-text" placeholder="Enter your objection...">
+                <textarea class= "input-text" placeholder= "Enter your objection..."></textarea>
             </div>
         </div>
         `

@@ -1,5 +1,5 @@
 *{
-    background-color: rgb(31, 31, 31);
+    background-color: rgb(20, 20, 20);
     color: white;
     margin: 0px;
     padding: 0px;
@@ -16,7 +16,7 @@
 #content{
     display: grid;
     grid-template-columns: auto auto;
-    column-gap: 12rem;
+    column-gap: 6rem;
 }
 
 #cont-character-main {
@@ -54,3 +54,21 @@
     font-size: 3.5rem;
 }
 
+@media (max-width:600px) {
+    
+    #content{
+       display: flex;
+       flex-direction: column;
+    }
+
+    #cont-form{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .text{
+        display: flex;
+        align-items: center;
+    }
+}

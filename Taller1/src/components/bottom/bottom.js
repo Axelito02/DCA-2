@@ -1,4 +1,8 @@
 class Bottom extends HTMLElement {
+    static get observedAttributes() {
+        return ["twiter", 'email'];
+    }
+
     constructor(){
         super()
         this.attachShadow({mode: 'open'})
@@ -6,6 +10,11 @@ class Bottom extends HTMLElement {
 
     connectedCallback(){
         this.render()
+    }
+
+    attributeChangedCallback(propName, oldValue, newValue) {
+        this[propName] = newValue;
+        this.render();
     }
 
     render(){
@@ -22,14 +31,17 @@ class Bottom extends HTMLElement {
 
                 <div class="social">
                     <div class="column">
-                        <h3>mail</h3> 
+                        <img src= "${this.email}" alt= "${this.msg}">
                     </div>
                     <div class="column">
-                        <h3>twitter</h3> 
-                    </div>
+                        <img src= "${this.twiter}" alt= "${this.msg}">
+                     </div>
                 </div>
             </div>
-        </div>`
+        </div>
+        <div class="descripcion">2023 -objection.lol</div>
+        
+        `
     }
 }
 

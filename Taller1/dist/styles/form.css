@@ -12,13 +12,17 @@ select{
     padding: 8px;
 }
 
-.tex-area input {
+.input-text {
     width: 97%;
     height: 120px;
-    color: white;
     background-color: rgb(58, 58, 58);;
     word-wrap: break-word;
     overflow: auto;
+    resize: none;
+    width: 100%;
+    color: #ffffff;
+    border: none;
+    border-radius: 4px;
 }
 
 .form-content {
