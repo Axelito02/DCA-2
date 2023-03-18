@@ -4,6 +4,7 @@
     margin: 0px;
     padding: 0px;
     gap: 12px;
+    font-family: sans-serif;
 }
 
 #main-container {
@@ -70,5 +71,6 @@
     .text{
         display: flex;
         align-items: center;
+        font-size: small;
     }
 }
