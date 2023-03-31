@@ -15,7 +15,8 @@ class App extends HTMLElement {
             if(this.shadowRoot){
                 this.shadowRoot.innerHTML = `
                 <link rel="stylesheet" href="../src/components/card/style.css">
-                <comp-card></comp-card>
+
+                    <comp-card></comp-card>
                 `;
             }
         }

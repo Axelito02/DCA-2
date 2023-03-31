@@ -1,4 +1,4 @@
-import {getCharacters} from "../api";
+import {getCharactersApi} from "../api";
 import { character } from "./types/type";
 
 export default class Card extends HTMLElement {
@@ -9,13 +9,13 @@ export default class Card extends HTMLElement {
     }
 
     async connectedCallback(){
-        const charactes = await getCharacters();
-        this.render(charactes);
+        const MortyCharacters = await getCharactersApi();
+        this.render(MortyCharacters);
         }
 
-    render(charactes: Array<character>) {
+    render(MortyCharacters: Array<character>) {
         if(!this.shadowRoot) return; {    
-            const dataMorty = charactes.map(({name, image, gender, species, status}) => `
+            const dataMorty = MortyCharacters.map(({name, image, gender, species, status}) => `
             <link rel="stylesheet" href="../src/style.css">
             <section id= "container">
                 <div class="section">
